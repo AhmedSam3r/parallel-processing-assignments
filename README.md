@@ -4,14 +4,15 @@
 # after installing and setting it up. starting from login
 username: root and password: Hpc@fc1
 # choose the directory you want to put codes in in the VM.
->>mkdir codes <br />
->>chmod 777 codes/ <br />
+>>mkdir codes 
+>>chmod 777 codes/ 
+  
 # link the directory on your physical device with the directory on the VM.
 >>mount -t vboxsf shared codes/ <br />
->>cd codes<br />
->>ls <br />
+>>cd codes
+>>ls 
 files in your windows folder should appear if any exists
->>mpd & <br />
+>>mpd &
 # how to run the file.
 >>mpicc -o greetings.out greetings.c <br />
 >>mpiexec -n 4 ./greetings.out <br />
