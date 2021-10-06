@@ -13,7 +13,7 @@
   >>cd codes <br />
   >>ls   <br />
   >>mpd &
-# How to run the file.
+# How to run the MPI file.
   >>mpicc -o greetings.out greetings.c <br />
   >>mpiexec -n 4 ./greetings.out <br />
 
